@@ -1,0 +1,80 @@
+/* .bg{
+    background-image: url("..myimages/background.jpg");
+} */
+
+.navigation{
+    text-align: right;
+    flex: 1;
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 14px;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+body{
+    background-image: url("myimages/background.jpg");
+}
+
+.myname h1{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 70;
+    
+
+}
+p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+img{
+    align-items: center;
+    padding-left: 30%;
+  }
+  p{
+      font-size: 30px;
+  }
+  .break{
+ 
+    border-width: 0%;
+    height: 2px;
+    background-color: white;
+    
+  }
+  q{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+  }
